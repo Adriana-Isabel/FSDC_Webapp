@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Security Dashboard</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <h1 id="brand-text">Food Security</h1>
+            </div>
+            
+            <nav class="navbar-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" id="nav-home">Home</a></li>
+                    <li><a href="#about" id="nav-about">About</a></li>
+                    <li><a href="#services" id="nav-services">Services</a></li>
+                    <li><a href="#contact" id="nav-contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="language-switcher">
+                <button class="lang-switch-btn" onclick="switchLanguage()" id="lang-btn">
+                    <span id="current-lang">EN</span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="home" class="section">
+            <div class="section-content">
+                <h2 id="home-title">Welcome to Food Security</h2>
+                <p id="home-desc">Building a sustainable future through food security initiatives</p>
+                <button class="cta-button" id="cta-btn">Learn More</button>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-content">
+                <h2 id="about-title">About Us</h2>
+                <p id="about-desc">We are dedicated to ensuring food security for all communities through innovative solutions and collaborative efforts.</p>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="section-content">
+                <h2 id="services-title">Services</h2>
+                <p id="services-desc">Our services include research, education, and implementation of food security programs.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section-content">
+                <h2 id="contact-title">Contact Us</h2>
+                <p id="contact-desc">Get in touch with us for more information about our initiatives.</p>
+                <button class="cta-button" id="contact-btn">Send Message</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p id="footer-text">&copy; 2024 Food Security. All rights reserved.</p>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>
