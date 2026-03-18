@@ -17,7 +17,7 @@ body {
 
 /* Navigation Header */
 .navbar {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #3cb85b 0%, #2b9141 100%);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -143,7 +143,7 @@ body {
 }
 
 .section-content h2 {
-  color: #667eea;
+  color: #3cb85b;
   margin-bottom: 20px;
   font-size: 2.2em;
 }
@@ -157,7 +157,7 @@ body {
 
 /* Call to Action Button */
 .cta-button {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #3cb85b 0%, #2b9141 100%);
   color: white;
   border: none;
   padding: 12px 30px;
